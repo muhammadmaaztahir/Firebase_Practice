@@ -1,0 +1,51 @@
+.underNav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.carousel{
+    height: 80vh;
+}
+
+.productsSection{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.productsSection>h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productsSection>button{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+.productsSection>h1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.products{
+    margin: auto;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product1{
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.card{
+    cursor: pointer;
+}
